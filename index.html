@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Digital Tower ARG</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Virtual Tower (ONGOING)</h1>
+    </header>
+    <nav>
+      <button id="register-tab">Register</button>
+      <button id="login-tab">Login</button>
+    </nav>
+    <div id="forms-container">
+      <!-- Registration Form -->
+      <div id="register-form" class="form hidden">
+        <h2>Register</h2>
+        <form id="register">
+          <label for="reg-username">Username:</label>
+          <input type="text" id="reg-username" required>
+          <label for="reg-password">Password:</label>
+          <input type="password" id="reg-password" required>
+          <button type="submit">Register</button>
+        </form>
+      </div>
+      <!-- Login Form -->
+      <div id="login-form" class="form hidden">
+        <h2>Login</h2>
+        <form id="login">
+          <label for="login-username">Username:</label>
+          <input type="text" id="login-username" required>
+          <label for="login-password">Password:</label>
+          <input type="password" id="login-password" required>
+          <button type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+    <section id="mystery-section">
+      <p>Welcome to the Virtual Tower.</p>
+      <div class="image-container">
+        <img src="Tower.jpeg" alt="Digital Tower" />
+      </div>
+      <a href="floor1.html" id="first-puzzle-link" class="disabled">Enter Floor 1</a>
+    </section>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
