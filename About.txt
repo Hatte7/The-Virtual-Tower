@@ -1,2 +1,3 @@
 This project aims to be a portal for digital puzzles, but I don't know if I'll go ahead with the idea. 
-I programmed most of it, but I had a little help from ChatGPT.
+I programmed most of it, but I had a little help from ChatGPT. 
+To get started, download the zip and open "index.html". :)
