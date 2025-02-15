@@ -2,7 +2,7 @@
 document.getElementById("puzzle-form").addEventListener("submit", function(e) {
     e.preventDefault();
     let answer1 = document.getElementById("puzzle-answer").value; 
-    if (answer1 == "magiciandomain") {
+    if (answer1 == "magiciansdomain") {
         setCookie("progress", 1, 1);
         document.getElementById("second-puzzle-link").classList.remove("disabled");
     }
